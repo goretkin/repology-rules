@@ -38,6 +38,7 @@
 - { setname: ollama,                   name: [ollama-full, ollama-cuda, ollama-nogpu, ollama-rocm], addflavor: true }
 - { setname: olm,                      name: libolm }
 - { setname: olm,                      name: ["python:olm", olm-python3], addflavor: python }
+- { setname: omath,                    name: orange-math, ruleset: vcpkg }
 - { setname: ombi,                     name: [ombi-beta,ombi-dev] }
 - { setname: omegat,                   name: omegat-latest, nolegacy: true }
 - { setname: omlibraries,              name: [omlibrary, openmodelica-omlibraries] }
@@ -176,6 +177,7 @@
 - { setname: openstack-placement,      name: python:$0 }
 - { setname: opentelemetry-collector,  name: otelcol }
 - { setname: opentelemetry-collector-contrib, name: otelcol-contrib }
+- { setname: opentracing-cpp,          name: opentracing, ruleset: vcpkg }
 - { setname: openttd,                  name: [open-ttd, openttd-stable] }
 - { setname: openttd,                  name: [openttd-version, openttd-btpro], addflavor: true }
 - { setname: openttd-opengfx,          name: [opengfx, openttd-opengfx] }

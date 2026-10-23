@@ -249,6 +249,7 @@
 - { setname: libdmx, name: xorg-libdmx }
 - { setname: libxrandr, name: [xorg-libxrandr,xorg-lib-libxrandr] }
 - { setname: libxrandr, name: xorg-xrandr, ruleset: ravenports } # exclude from the following rule; XXX: problem
+- { setname: xorgproto,                name: xproto, ruleset: vcpkg }
 - { setname: xrandr, name: [xorg-app-xrandr,xorg-xrandr] }
 - { setname: xorg-scripts, name: [xorg-app-scripts,x11-scripts] }
 - { setname: xorg-sgml-doctools, name: x11-sgml-doctools } # XXX: problem

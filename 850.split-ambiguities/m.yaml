@@ -16,6 +16,7 @@
 - { name: mage, wwwpart: biochem, setname: mage-kinemage }
 - { name: mage, addflag: unclassified }
 
+- { name: magnum, ruleset: conan, setname: magnum-middleware }
 - { name: magnum, wwwpart: openstack, setname: magnum-openstack }
 - { name: magnum, wwwpart: [magnum.graphics,mosra.cz], setname: magnum-middleware }
 - { name: magnum, addflag: unclassified }

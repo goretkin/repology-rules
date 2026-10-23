@@ -28,6 +28,7 @@
 - { setname: ykush,                    name: [ykushcmd,ykush-control] }
 - { setname: yofrankie,                name: yo-frankie }
 - { setname: yofrankie,                name: yofrankie-bge }
+- { setname: yojimbo-network-library,  name: mas-bandwidth-yojimbo, ruleset: vcpkg }
 - { setname: yolk,                     name: rust:yolk-dots }
 - { setname: youki,                    name: rust:$0 }
 - { setname: youtube-dl,               name: youtube-dl-dmo, addflavor: true }

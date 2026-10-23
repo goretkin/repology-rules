@@ -85,6 +85,7 @@
 - { name: iotop, wwwpart: tomas-m, setname: iotop-c }
 - { name: iotop, addflag: unclassified }
 
+- { name: ipaddress, ruleset: conan, setname: vladimirshaleev-ipaddress }
 - { name: ipaddress, wwwpart: seancfoley, setname: java:ipaddress }
 # otherwise outdated python ipaddress port to outdated python versions
 - { name: ipaddress, addflag: unclassified }

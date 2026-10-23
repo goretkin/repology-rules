@@ -80,6 +80,7 @@
 - { setname: universalmediaserver,     name: ums-headless, addflavor: true }
 - { setname: unixodbc,                 name: [unixodbc-compat,compat-unixodbc234] }
 - { setname: unixodbc,                 name: [libodbc,libodbc1] }
+- { setname: unixodbc,                 name: odbc, ruleset: conan }
 - { setname: unknown-horizons,         name: unknownhorizons }
 - { setname: unrar,                    name: [libunrar,libunrar5] }
 - { setname: unreal-tournament,        name: [unrealtournament, unreal-tournament-goty] } # proprietary
@@ -111,6 +112,7 @@
 - { setname: usbmuxd,                  name: usbmuxd2 }
 - { setname: userspace-rcu,            name: [libuserspace-rcu,liburcu,liburcu0,urcu] }
 - { setname: ut,                       name: [boost-ut, boost-ext-ut, bext-ut] }
+- { setname: utf8.h,                   name: utf8h, ruleset: vcpkg }
 - { setname: utf8proc,                 name: [libutf8proc,libutf8proc-julia,libutf8proc2] }
 - { setname: utfcpp,                   name: [libutfcpp,utf8cpp] }
 - { setname: uthash,                   name: [libuthash-devel,uthash-devel], weak_devel: true, nolegacy: true }

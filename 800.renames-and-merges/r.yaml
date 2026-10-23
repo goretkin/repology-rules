@@ -34,6 +34,7 @@
 - { setname: range-v3,                 name: [range-v3-devel,range-v3-v1-beta], weak_devel: true, nolegacy: true }
 - { setname: ranger,                   name: python:ranger-fm }
 - { setname: rapiddisk,                name: rapiddisk-dkms }
+- { setname: rapidyaml,                name: ryml, ruleset: vcpkg }
 - { setname: raptor,                   name: [raptor1,raptor2,libraptor,libraptor2,raptor-cos,seqan-raptor] } # different projects, split in 850
 - { setname: rash,                     name: rust:$0 }
 - { setname: raul,                     name: lib$0 }
@@ -74,6 +75,7 @@
 - { setname: recutils,                 name: gnu-recutils }
 - { setname: recutils,                 name: "emacs:recutils", addflavor: emacs }
 - { setname: recyclarr,                name: recyclarr-cli }
+- { setname: red0124-ssp,              name: ssp, ruleset: conan }
 - { setname: redasm,                   name: redasm-beta, weak_devel: true, nolegacy: true }
 - { setname: redeclipse,               name: red-eclipse }
 - { setname: redeclipse,               name: redeclipse-data, addflavor: data }
@@ -86,6 +88,8 @@
 - { setname: redo,                     name: [redo-apenwarr, apenwarr-redo, redo-python, redo-jdebp, jdebp-redo] } # multiple djb redo implementations, split in 850
 - { setname: reduce-algebra,           name: reduce-psl, addflavor: psl }
 - { setname: refine,                   name: gnome-refine }
+- { setname: reflect-cpp,              name: reflectcpp, ruleset: vcpkg }
+- { setname: reliable,                 name: mas-bandwidth-reliable, ruleset: vcpkg }
 - { setname: relic,                    name: relic-toolkit }
 - { setname: remmina,                  name: [remmina-appindicator,remmina-gtk2,remmina-plugin-gnome,remmina-plugin-nx,remmina-plugin-rdp,remmina-plugin-telepathy,remmina-plugin-vnc,remmina-plugin-xdmcp,remmina-plugins,remmina-xfce], addflavor: true }
 - { setname: renpy,                    name: "python:renpy" }

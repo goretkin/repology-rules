@@ -129,6 +129,7 @@
 - { setname: tftp-hpa,                 name: $0-destruct, addflavor: true }
 - { setname: tg-owt,                   name: [libtg-owt, libtgowt] }
 - { setname: tg-owt,                   name: [libowt-tg, webrtc-for-telegram-desktop] } # XXX: misnamed
+- { setname: tgbot-cpp,                name: tgbot, ruleset: conan }
 - { setname: tgui,                     name: tgui8 }
 - { setname: the-foundation,           name: tfdn } # XXX: problem
 - { setname: the-silver-searcher,      name: [silver-searcher,silversearcher-ag,thesilversearcher,silversearcher,ag] }
@@ -178,9 +179,11 @@
 - { setname: timew,                    name: timewarrior }
 - { setname: timidity++,               name: [timidity++-emacs,timidity++-gtk,timidity++-motif,timidity++-slang,timidity++-tcltk,timidity++-xaw,timidity++-xskin] }
 - { setname: timidity++,               name: timidity, verpat: "2\\..*" }
+- { setname: tinkerforge-bindings,     name: tinkerforge, ruleset: vcpkg }
 - { setname: tint,                     name: tint-tetris }
 - { setname: tintin++,                 name: [tintin,tintinxx] }
 - { setname: tintin++,                 name: tintin-debug, addflavor: true }
+- { setname: tiny-utf8,                name: tinyutf8, ruleset: vcpkg }
 - { setname: tinyfugue,                name: tinyfugue-patched, addflavor: true }
 - { setname: tinyfugue,                name: tinyfugue4-stable }
 - { setname: tinyfugue,                name: tinyfugue-devel, weak_devel: true, nolegacy: true }

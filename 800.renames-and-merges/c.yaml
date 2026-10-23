@@ -235,6 +235,7 @@
 - { setname: chatterino,               name: chatterino2 }
 - { setname: chatty,                   name: [chatty-beta, java-chatty-beta], weak_devel: true, nolegacy: true }
 - { setname: chatty,                   name: [purism-chatty, java-chatty] }
+- { setname: check,                    name: libcheck, ruleset: conan }
 - { setname: check-dfsg-status,        name: vrms } # former name
 - { setname: check-jsonschema,         name: python:$0 }
 - { setname: check-lm-sensors,         name: [nagios-check-lm-sensors, nagios-plugin-check-lm-sensors] }
@@ -441,6 +442,7 @@
 - { setname: cpmtools,                 name: cpmtools2 }
 - { setname: cpp-hocon,                name: libcpp-hocon }
 - { setname: cpp-httplib,              name: cpp-httplib-compiled, addflavor: true }
+- { setname: cpp-timsort,              name: timsort, ruleset: conan }
 - { setname: cppcheck,                 name: [cppcheck-nox,cppcheck-gui,cppcheck-fixed], addflavor: true }
 - { setname: cpprestsdk,               name: [cpprest,casablanca] }
 - { setname: cpptest,                  name: libcpptest }
@@ -472,6 +474,7 @@
 - { setname: crossguid,                name: crossguid-git, weak_devel: true, nolegacy: true }
 - { setname: crossover,                name: wine-crossover }
 - { setname: crossplane,               name: [$0-cli, python:$0] } # different projects, split in 850
+- { setname: crow,                     name: crowcpp-crow, ruleset: conan }
 - { setname: crowbar,                  name: rust:$0 }
 - { setname: crrcsim-models,           name: crrcsim-addon-models }
 - { setname: crypto++,                 name: [crypto++-562,cryptopp,libcrypto++,libcryptopp] }
@@ -480,6 +483,7 @@
 - { setname: crystal,                  name: crystal-bin, addflavor: bin }
 - { setname: crystal-icr,              name: icr }
 - { setname: crystalhd,                name: [crystalhd-kmod,crystalhd-libs,crystalhd-modules,firmware-crystalhd,libcrystalhd], addflavor: true }
+- { setname: cs-libguarded,            name: libguarded, ruleset: vcpkg }
 - { setname: csfml,                    name: libcsfml }
 - { setname: csharp-mode.el,           name: csharp-mode }
 - { setname: csound,                   name: [csound5, csound6] }

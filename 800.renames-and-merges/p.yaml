@@ -1,5 +1,6 @@
 # vim: tabstop=39 expandtab softtabstop=39 nomodeline
 
+- { setname: p-ranav-csv2,             name: pranav-csv2, ruleset: conan }
 - { setname: p0f,                      name: [p0f2, p0f3] }
 - { setname: p11-kit,                  name: [p11kit,libp11-kit] }
 - { setname: p7zip,                    name: [p7zip-codec-rar,p7zip-gui,p7zip-natspec,p7zip-rar], addflavor: true }
@@ -68,6 +69,7 @@
 - { setname: payara,                   namepat: "payara[0-9]+" }
 - { setname: payara,                   name: payara5-micro, addflavor: micro }
 - { setname: pcg-c,                    name: [pcg,libpcg] }
+- { setname: pcg-cpp,                  name: pcg-c, ruleset: vcpkg }
 - { setname: pciutils,                 name: [pciutils-staticlibs], addflavor: true }
 - { setname: pcl,                      name: [libpcl,libpcl1,pcl-pointclouds,pcllib] }
 - { setname: pcmanfm,                  name: [pcmanfm-gtk3,pcmanfm-gtk3-root], addflavor: true }
@@ -217,6 +219,7 @@
 - { setname: plasma-workspace,         name: plasma5-workspace }
 - { setname: plasma-workspace-wallpapers, name: plasma5-workspace-wallpapers }
 - { setname: platform,                 name: lib$0 }
+- { setname: platformfolders,          name: platform-folders, ruleset: vcpkg }
 - { setname: platformio,               name: platformio-core }
 - { setname: play,                     name: [play-emu, purei-play] }
 - { setname: please-build,             name: please.build }
@@ -236,6 +239,7 @@
 - { setname: pluma,                    name: pluma-gtk2, addflavor: true }
 - { setname: plumed,                   name: plumed-namd, addflavor: namd }
 - { setname: plv8,                     namepat: "(postgresql[0-9.-]*)-plv8(js)?", addflavor: $1 }
+- { setname: pmp-library,              name: pmp, ruleset: conan }
 - { setname: png++,                    name: pngpp }
 - { setname: pnglite,                  name: libpnglite }
 - { setname: pngquant,                 name: rust:$0 }
@@ -415,6 +419,7 @@
 - { setname: pt-pivotal-tracker-client, name: "ruby:pt" }
 - { setname: pt2-clone,                name: protracker } # name used by upstream
 - { setname: pth,                      name: lib$0 }
+- { setname: pthreads4w,               name: pthreads, ruleset: vcpkg }
 - { setname: public-suffix-list,       name: [publicsuffix,publicsuffix-list] }
 - { setname: pueue,                    name: rust:$0 }
 - { setname: pug,                      name: [pug-hook, terraform-pug] } # different projects, split in 850

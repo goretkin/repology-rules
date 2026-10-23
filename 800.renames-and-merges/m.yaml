@@ -138,6 +138,7 @@
 - { setname: matrix-synapse,           name: "python:matrix-synapse" }
 - { setname: mattermost,               name: [mattermost-server, mattermost-webapp], addflavor: true }
 - { setname: mattermost-desktop,       name: mattermostdesktop }
+- { setname: mattiasgustavsson-libs,   name: mgnlibs, ruleset: vcpkg }
 - { setname: maturin,                  name: ["python:maturin", "rust:maturin"] }
 - { setname: mauikit-archiver,         name: maui-mauikit-archiver }
 - { setname: maven,                    name: apache-maven }
@@ -213,6 +214,7 @@
 - { setname: mediawiki,                name: $0-lts }
 - { setname: medit,                    name: [medit-editor, medit-full], addflavor: true }
 - { setname: mednaffe,                 name: mednaffe-gtk2 }
+- { setname: meekrosoft-fff,           name: fff, ruleset: conan }
 - { setname: megapixels,               name: $0-gtk3, addflavor: true }
 - { setname: megasync,                 name: megasync-nopdfium, addflavor: true }
 - { setname: meld,                     name: meld-dev, ignore: true }
@@ -400,6 +402,7 @@
 - { setname: mpv,                      name: mpvio } # chocolatey woes (see report for mpvio)
 - { setname: mpv,                      name: [mpv-full,mpv-light,mpv-rpi,mpv-scripts,mpv-sndio,mpv-thin,mpv-tools,mpv-with-scripts,mpv-amd-full,mpv-build,mpv-caca,mpv-full-build,mpv-light-pulse,mpv-vapoursynth,umpv,mpv-x], addflavor: true }
 - { setname: mpv,                      name: [mpv-nightly, mpv-git], weak_devel: true, nolegacy: true }
+- { setname: mqtt-cpp,                 name: redboltz-mqtt-cpp, ruleset: conan }
 - { setname: mrbayes,                  name: [mrbayes-beagle, mrbayes-portable], addflavor: true }
 - { setname: mrboom,                   name: libretro-mrboom }
 - { setname: mrbs,                     name: php:$0 }

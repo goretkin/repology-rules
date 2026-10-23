@@ -37,6 +37,7 @@
 - { setname: neomutt,                  name: neomutt-backends, addflavor: backends }
 - { setname: neon,                     name: neon-threadsafe, addflavor: true }
 - { setname: neon,                     namepat: "(?:lib)?neon[0-9.-]*" }
+- { setname: neon2sse,                 name: intel-neon2sse, ruleset: conan }
 - { setname: nestopia,                 name: nestopia-ue }
 - { setname: net-snmp,                 name: [net-snmp35, net-snmp40] }
 - { setname: net6,                     name: libnet6 }
@@ -53,6 +54,7 @@
 - { setname: netcdf-cxx,               namepat: "netcdf-cxx(?:[0-9.-]*)(-gnu.*hpc)?", addflavor: $1 }
 - { setname: netcdf-cxx,               name: netcdf-cxx-legacy }
 - { setname: netcdf-fortran,           namepat: "netcdf-fortran(?:[0-9.-]*)(-gnu.*hpc)?", addflavor: $1 }
+- { setname: netcode,                  name: mas-bandwidth-netcode, ruleset: vcpkg }
 - { setname: netdata-go.d.plugin,      name: [netdata-go-plugin, netdata-go, netdata-go-plugins, netdata-plugins-go] }
 - { setname: netgen,                   name: netgen-mesher }
 - { setname: netgen,                   name: netgen-nogui-occ7, addflavor: true }
@@ -190,6 +192,7 @@
 - { setname: ntp,                      name: [ntpd, ntpdate], addflavor: true }
 - { setname: nu,                       name: nu2 } # split later
 - { setname: nuget,                    name: mono-nuget }
+- { setname: numactl,                  name: libnuma, ruleset: conan }
 - { setname: numbat,                   name: rust:numbat-cli }
 - { setname: numptyphysics,            name: numpty-physics }
 - { setname: nurl,                     name: rust:$0 }

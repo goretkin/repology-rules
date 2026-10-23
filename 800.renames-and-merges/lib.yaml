@@ -43,6 +43,7 @@
 - { setname: libcap,                   name: libcap-pam, addflavor: true }
 - { setname: libcapi,                  name: [libcapi20, libcapi20-3] }
 - { setname: libcapplet,               name: libcapplet15 }
+- { setname: libccd,                   name: ccd, ruleset: vcpkg }
 - { setname: libcddb,                  name: libcddb-utils, addflavor: true }
 - { setname: libcdio,                  name: cdio-utils, addflavor: true }
 - { setname: libcdr,                   namepat: "libcdr[0-9.-]+" }
@@ -253,6 +254,7 @@
 - { setname: libosmpbf,                name: [osmpbf,osm-pbf] }
 - { setname: libotr,                   namepat: "libotr[0-9]+" }
 - { setname: libp11,                   name: libp11-openssl1.1, addflavor: true }
+- { setname: libp7client,              name: baical-p7, ruleset: conan }
 - { setname: libpagemaker,             namepat: "libpagemaker[0-9.-]+" }
 - { setname: libpano13,                name: libpano }
 - { setname: libpaper,                 name: libpaper1 }

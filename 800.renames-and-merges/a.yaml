@@ -6,6 +6,7 @@
 - { setname: aaa,                      name: rust:$0 }
 - { setname: aaaaxy,                   name: $0-snap, addflavor: true }
 - { setname: aalib,                    name: libaa }
+- { setname: aaplus,                   name: libaaplus, ruleset: vcpkg }
 - { setname: aarch64-esr-decoder,      name: rust:$0 }
 - { setname: aardvark-dns,             name: rust:$0 }
 - { setname: ab-av1,                   name: rust:$0 }
@@ -130,6 +131,7 @@
 - { setname: airspy,                   name: [airspy-host, airspyone-host] }
 - { setname: airtame,                  name: airtame-application} # XXX: problem
 - { setname: aisleriot,                name: gnome-games-aisleriot }
+- { setname: aklomp-base64,            name: base64, ruleset: conan }
 - { setname: akode,                    name: [akode-plugins-alsa,akode-plugins-jack,akode-plugins-mpc,akode-plugins-mpeg,akode-plugins-oss,akode-plugins-pulseaudio,akode-plugins-resampler,akode-plugins-sun,akode-plugins-xiph], addflavor: true }
 - { setname: akonadi-contacts,         name: akonadi-contact } # XXX: problem
 - { setname: alac,                     name: [alac-decoder,libalac,alacconvert], addflavor: true } # supposedly the same
@@ -255,6 +257,7 @@
 - { setname: antlr,                    name: antlr3-bin, addflavor: bin }
 - { setname: antlr,                    name: [antlr4-project, libantlr] }
 - { setname: antlr,                    name: [java-antlr3,ant-antlr3,libantlr4] }
+- { setname: antlr,                    name: antlr4-cppruntime, ruleset: conan }
 - { setname: antu-icons,               name: antu-icon-theme }
 - { setname: anubis,                   name: [go:$0,$0-smtp] } # ambiguous name, split in 850
 - { setname: anubis,                   name: python:anubis-netsec }
@@ -300,6 +303,7 @@
 - { setname: appindicator-sharp,       name: appindicator3-sharp }
 - { setname: appium,                   name: appium-desktop }
 - { setname: appmenu-qt,               name: appmenu-qt4 }
+- { setname: approval-tests-cpp,       name: approvaltests.cpp, ruleset: conan }
 - { setname: appstream,                name: appstream-qt }
 - { setname: appstream-glib,           name: libappstream-glib }
 - { setname: apq,                      name: apq-base } # ravenports
@@ -347,6 +351,7 @@
 - { setname: argononed,                name: argonone-c }
 - { setname: argp-standalone,          name: [libargp] }
 - { setname: argparse,                 name: [cpp-argparse, libargparse] }
+- { setname: args,                     name: taywee-args, ruleset: conan }
 - { setname: argtable,                 name: [argtable2,libargtable2] }
 - { setname: argtable,                 name: argtable-docs, addflavor: docs }
 - { setname: argus,                    name: argus-sasl, addflavor: true }
@@ -433,6 +438,7 @@
 - { setname: atspkg,                   name: "haskell:ats-pkg" }
 - { setname: attic,                    name: rust:$0 }
 - { setname: attica,                   name: [attica-kf5,attica-qt4,attica-qt5,libattica], addflavor: true }
+- { setname: attr,                     name: libattr, ruleset: conan }
 - { setname: atuin,                    name: rust:$0 }
 - { setname: aubio,                    name: [libaubio,libaubio4,libaubio5,"python:aubio"] }
 - { setname: audacious,                name: [audacious-gtk3,audacious-core,audacious-qt5,audacious-itself,audacious-player], addflavor: true }
@@ -448,6 +454,7 @@
 - { setname: augustus,                 name: [augustus-caesar-3, augustus-game] }
 - { setname: aumix,                    name: aumix-gtk, addflavor: true }
 - { setname: aunit,                    name: libaunit }
+- { setname: aurora-au,                name: au, ruleset: conan }
 - { setname: ausweisapp,               name: ausweisapp2 } # XXX: problem
 - { setname: autoconf,                 namepat: "autoconf[0-9.-]+" }
 - { setname: autoconf,                 name: [autoconf-legacy, autoconf2.7x, autoconf-latest] }
@@ -483,6 +490,7 @@
 - { setname: avrdude,                  name: [arduino-avrdude,avrdude-bobdude], addflavor: true }
 - { setname: avro,                     name: [avro-c,avro-cpp,avro-c++,avro-java,avro-tools,"ruby:avro","python:avro","php:wikimedia-avro"], addflavor: true }
 - { setname: avro,                     name: libavro }
+- { setname: avro,                     name: libavrocpp, ruleset: conan }
 - { setname: avw.lv2,                  name: avw-plugins-lv2 }
 - { setname: awake,                    name: python:awake }
 - { setname: awesome,                  name: awesome-luajit, addflavor: jit }

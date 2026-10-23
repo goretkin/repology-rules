@@ -46,6 +46,7 @@
 - { name: tcat, wwwpart: rsc, setname: tablecat } # reuse name from macports
 - { name: tcat, addflag: unclassified }
 
+- { name: tcl, ruleset: conan, setname: tcl-lang }
 - { name: tcl, wwwpart: [tcl.tk,tcl-lang,tcltk], setname: tcl-lang }
 - { name: tcl, sourceforge: tcl, setname: tcl-lang }
 - { name: tcl, wwwpart: bsc-pm, setname: tcl-checkpointing-library }

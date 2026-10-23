@@ -119,6 +119,7 @@
 - { setname: linkerd,                  name: [linkerd-cli, linkerd-edge, linkerd-stable, linkerd2] }
 - { setname: links,                    name: [links1,links2,links+] }
 - { setname: links,                    name: [links-g-directfb,links-gui,links-x11,links-dfb,links-minimal,links-graphics], addflavor: true }
+- { setname: linmath.h,                name: linmath, ruleset: vcpkg }
 - { setname: linux-predator,           name: [linux-predator-docs,linux-predator-headers], addflavor: true }
 - { setname: linuxsampler,             name: linuxsampler-vst, addflavor: true }
 - { setname: lipsofsuna,               name: lips-of-suna }
@@ -146,6 +147,7 @@
 - { setname: localsearch,              name: tracker-miners, outdated: true } # renamed
 - { setname: log4cpp,                  name: liblog4cpp }
 - { setname: log4cpp,                  name: log4cpp-rc, weak_devel: true, nolegacy: true }
+- { setname: log4cpp,                  name: log4cpp-log4cpp, ruleset: vcpkg }
 - { setname: log4cxx,                  name: apache-log4cxx }
 - { setname: log4j,                    namepat: "(?:apache-|java-)?log4j[0-9.-]*(-mini|-eap6|-api|-core)?", addflavor: $1 }
 - { setname: logcat-color,             name: python:$0 }
@@ -245,6 +247,7 @@
 - { setname: lxterminal,               name: lxterminal-gtk3, addflavor: gtk3 }
 - { setname: lychee,                   name: rust:$0 }
 - { setname: lynx,                     name: [lynx-cur,lynx-current] }
+- { setname: lyra,                     name: bfgroup-lyra, ruleset: vcpkg }
 - { setname: lyrebird,                 name: lyrebird-proxy }
 - { setname: lyrionmusicserver,        name: [logitechmediaserver, logitech-media-server, squeezecenter], outdated: true } # older names
 - { setname: lyrionmusicserver,        name: perl:slimserver }

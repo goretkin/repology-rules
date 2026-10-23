@@ -33,6 +33,7 @@
 - { setname: fasm,                     name: [fasm-bin,fasm-linux,flat-assembler], addflavor: true }
 - { setname: fast,                     name: libfast }
 - { setname: fast-float,               name: fastfloat }
+- { setname: fast-io,                  name: fastio, ruleset: vcpkg }
 - { setname: fasta,                    name: fasta3 }
 - { setname: fastd,                    name: fastd-devel, weak_devel: true, nolegacy: true }
 - { setname: fastmail,                 name: fastmail-desktop }

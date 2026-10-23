@@ -68,6 +68,7 @@
 - { setname: zoneminder,               name: zoneminder-h264, ignore: true }
 - { setname: zookeeper,                name: [zookeeper-bin, libzookeeper, zookeeper-c], addflavor: true }
 - { setname: zookeeper,                name: apache-zookeeper }
+- { setname: zookeeper,                name: zookeeper-client-c, ruleset: conan }
 - { setname: zoom,                     name: zoom-player } # split in 850
 - { setname: zoom,                     name: [zoom-linux,zoom-us,zoom2] } # split in 850
 - { setname: zope,                     name: [zope2.3,zope3] }
