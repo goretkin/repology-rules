@@ -43,6 +43,7 @@
 - { setname: libcap,                   name: libcap-pam, addflavor: true }
 - { setname: libcapi,                  name: [libcapi20, libcapi20-3] }
 - { setname: libcapplet,               name: libcapplet15 }
+- { setname: libccd,                   name: ccd, ruleset: bcr }
 - { setname: libcddb,                  name: libcddb-utils, addflavor: true }
 - { setname: libcdio,                  name: cdio-utils, addflavor: true }
 - { setname: libcdr,                   namepat: "libcdr[0-9.-]+" }

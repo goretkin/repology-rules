@@ -159,6 +159,7 @@
 - { setname: foo2js,                   name: foo2zjs-nightly, weak_devel: true, nolegacy: true }
 - { setname: foobillard++,             name: foobillardplus }
 - { setname: foomatic-filters,         name: [foomatic-filters-cups, foomatic-filters-lprng], addflavor: true }
+- { setname: foonathan-lexy,           name: lexy, ruleset: bcr }
 - { setname: foot,                     name: $0-terminfo, addflavor: true }
 - { setname: fop,                      name: [apache-fop,fop2,xmlgraphics-fop] }
 - { setname: forge,                    name: forge-devel, weak_devel: true, nolegacy: true }

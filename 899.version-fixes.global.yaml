@@ -162,3 +162,7 @@
 
 # automatically and blindly updates versions to the broken ones: https://src.openmamba.org/rpms/glm/commit/5fa42a3ffb46fb14cf8b34d65af817d80756da1a
 - {                                                                  ruleset: openmamba,   untrusted: true }
+- { verpat: "0\\.0\\.0-.*",                                          ruleset: bcr,         noscheme: true }
+- { verpat: "[0-9a-f]{40}",                                          ruleset: bcr,         noscheme: true }
+- { verpat: ".*[.-]bcr\\.20[0-9]{6}.*",                              ruleset: bcr,         snapshot: true }
+- { verpat: ".*-(?:0\\.)?20[0-9]{6}(?:[0-9]{6})?(?:-[0-9a-f]{7,})?",   ruleset: bcr,         snapshot: true }

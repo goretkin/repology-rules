@@ -68,6 +68,7 @@
 - { setname: payara,                   namepat: "payara[0-9]+" }
 - { setname: payara,                   name: payara5-micro, addflavor: micro }
 - { setname: pcg-c,                    name: [pcg,libpcg] }
+- { setname: pcg-cpp,                  name: pcg-c, ruleset: bcr }
 - { setname: pciutils,                 name: [pciutils-staticlibs], addflavor: true }
 - { setname: pcl,                      name: [libpcl,libpcl1,pcl-pointclouds,pcllib] }
 - { setname: pcmanfm,                  name: [pcmanfm-gtk3,pcmanfm-gtk3-root], addflavor: true }
@@ -307,6 +308,7 @@
 - { setname: postgresql,               name: postgresql-src, addflavor: src}
 - { setname: postgresql,               name: postgresql-src-beta, addflavor: src, weak_devel: true, nolegacy: true }
 - { setname: postgresql,               name: [libecpg, libpq, pgindent], addflavor: true }
+- { setname: postgresql,               name: postgres, ruleset: bcr }
 - { setname: postgresql-1c,            namepat: "postgresql[0-9.-]+-1c" }
 - { setname: postgresql-jdbc,          name: [java-postgresql-jdbc, jdbc-postgresql, libpgjava] }
 - { setname: postorius,                name: python:$0 }

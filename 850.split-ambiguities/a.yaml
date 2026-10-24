@@ -284,6 +284,7 @@
 - { name: ape, wwwpart: tddft, setname: ape-atomic-pseudopotentials-engine }
 - { name: ape, wwwpart: attempto, setname: ape-attempto-controlled-english }
 - { name: ape, wwwpart: helicontech, setname: ape-helicon }
+- { name: ape, wwwpart: "gitlab.arm.com/bazel/ape", setname: ape-arm-bazel }
 - { name: ape, addflag: unclassified }
 
 - { name: apf, wwwpart: pr_af, setname: apf-active-port-forwarder }

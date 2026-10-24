@@ -448,6 +448,7 @@
 - { setname: augustus,                 name: [augustus-caesar-3, augustus-game] }
 - { setname: aumix,                    name: aumix-gtk, addflavor: true }
 - { setname: aunit,                    name: libaunit }
+- { setname: aurora-au,                name: au, ruleset: bcr }
 - { setname: ausweisapp,               name: ausweisapp2 } # XXX: problem
 - { setname: autoconf,                 namepat: "autoconf[0-9.-]+" }
 - { setname: autoconf,                 name: [autoconf-legacy, autoconf2.7x, autoconf-latest] }
@@ -493,6 +494,7 @@
 - { setname: aws-assume-role,          name: assume-role }
 - { setname: aws-cw-tools,             name: cloud-watch }
 - { setname: aws-mfa,                  name: python:$0 }
+- { setname: aws-sdk-cpp,              name: aws-sdk, ruleset: bcr }
 - { setname: awsbck,                   name: rust:$0 }
 - { setname: awscli,                   name: ["python:awscli", "python:aws-cli", aws-cli, aws-cli-v2, awscli2] }
 - { setname: awsebcli,                 name: [aws-eb-cli,aws-elasticbeanstalk,"python:aws-eb-cli"] }
